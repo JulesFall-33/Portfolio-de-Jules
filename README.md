@@ -8,8 +8,8 @@ Je suis étudiant en Bachelor Développeur Full Stack à Metz Numeric School et 
 
 ## Technologies
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 
 ## Auteur
