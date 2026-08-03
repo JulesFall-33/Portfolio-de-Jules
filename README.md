@@ -14,4 +14,4 @@ Je suis étudiant en Bachelor Développeur Full Stack à Metz Numeric School et 
 
 ## Auteur
 
-Jules Fall
+Jules MANGEAT
