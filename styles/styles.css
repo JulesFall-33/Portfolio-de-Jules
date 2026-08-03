@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    .libertinus-math-regular {
+  font-family: "Libertinus Math", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+}
+
+          /* changement de l'image de fond "*/
+.slider{
+    width: 100%;
+    min-height: 80vh;
+    aspect-ratio: 16/9;
+    background: black;
+    position: relative;
+}
+
+.slider-background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+    
+}
+        /* placement de text, haut, bas, gauche, droite"*/
+.slider-content{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+
+}
+      /* changement de couleur et de Text pour h1 " Jules MANGEAT " et pour h2 " A propos de moi"  c'est juste la taille*/
+h1{
+    color: aliceblue;
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+h4{
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+p{
+    font-size: 1.5rem;
+    line-height: 1.5em;
+}
+      /* changement de couleur et de Text pour " Ma présentation "*/
+
+.slider-content p{
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+      /* Boxed section, A propos de moi"*/
+
+.section{
+    padding: 100px 0;
+}
+
+.boxed{
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+.flex{
+    display:flex;
+}
+
+.dark{
+    background:url(../img/slider.jpg);
+    background-size:cover;
+    background-position: 50%;
+    color: #fff;
+}
+
+.w40{
+    width: 40%;
+
+}
+
+.w60{
+    width: 60%;
+}
+
+        /* 2 eme Boxed section, découvrer mes compétence"*/
+.text-center{
+    text-align: center;
+}
+
+.center{
+    justify-content: center;
+}
+        /* le w25 c'est le logo html en gros la"*/
+.w25{
+    width: 25%;
+}
+
+.w32{
+    width: 32%;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.gap20{
+    gap:20px;
+}
+
+.skill{
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+        /*taille de l'image html*/
+.skill img{
+        width: 90px;
+        height: 100px;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+}
+
+.skill h3{
+    color: #000000;
+    margin-top: 10px;
+}
+
+         /* Bloc a partir de " Ma réalisation " */
+.realisation{
+    height: auto;
+    aspect-ratio: 1/1;
+    position: relative;
+}
+
+.realisation h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    opacity: 0;
+    transition: .2s ease;
+    
+}
+
+.realisation a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #00b7ff;
+}
+
+.realisation img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter:brightness(30%);
+    transition: .4s ease;
+    
+}
+
+.realisation:hover img{
+    filter:brightness(60%)
+}
+
+.realisation:hover h3{
+    opacity: 1;
+}
+
+            /* Les contact, donc email ect */
+
+.icon{
+    display: block;
+    font-size:2rem !important;
+
+}
+
+.label{
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-size: 1.6rem;
+}
+
+.value{
+    display: block;
+    font-size: 1.4rem;
+}
+
+.adresse{
+    display: block;
+    font-size: 1.3rem;
+    
+}
+
+.contact{
+    border: 2px dashed #fff;
+    border-radius:  30px;
+    padding: 30px;
+    box-sizing: content-box;
+}
+
+.section.dark:last-of-type{
+    margin-top: 50px;
+}
+
+.section.dark:last-of-type h2{
+    font-size: 3rem;
+}
+
+.realisation-section h2{
+    font-size: 3rem;
+}
