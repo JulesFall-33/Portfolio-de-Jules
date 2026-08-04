@@ -408,14 +408,12 @@ header{
     .icon{
     font-size: 1.5rem !important;
     }
+
+    .menu-icon{
+        font-size: 2rem;
+        display: block;
+    }
     
 }
 
-.menu-icon{
-    font-size: 2rem;
-    display:block;
-}
 
-.header-menu-mobile{
-    background:red;
-}
