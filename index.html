@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Mon Portfolio</title>
     <meta type="description" content="Voici mon Portfolio" />
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
@@ -10,7 +10,25 @@
     
 </head>
 <body>
+    <header>
+            <div class="boxed">
+                <div class="flex aligncenter space-between">
+                    <a href="/" class="header-logo">
+                        <img src="img/html-logo.png">
+                    </a>
+                    <ul class="header-menu">
+                        <li><a href="/">Accueil</a></li>
+                        <li><a href="/">A Propos de moi</a></li>
+                        <li><a href="/">language que je connais</a></li>
+                        <li><a href="/">Ma réalisation</a></li>
+                        <li><a href="/">Ma Motivation</a></li>
+                        <li><a href="/">Contact</a></li>
+                    </ul>
 
+                </div>
+
+            </div>
+    </header>
 
     <div class="slider">
         <img src="img/slider.jpg" class="slider-background">
@@ -22,11 +40,11 @@
 
     <div class="section">
         <div class="boxed">
-            <div class="flex">
-                <div class="w40">
+            <div class="flex toColumn mCenter">
+                <div class="w40 wm100">
                     <h2>A propos de moi</h2>
                  </div>
-                 <div class="w60">
+                 <div class="w60 wm100">
                 <p> je suis Étudiant en Bachelor Développeur Full Stack (cursus en 3 ans), je recherche un contrat d'apprentissage pour développer mes compétences terrain. Formation avec un programme évolutif permettant d'acquérir des compétences adaptées aux exigences du développement web et logiciel. J'ai 20ans j'ai fait 2ans de BAC Pro Electricité en Alternance, Aujourd'hui je souhaite changé pour le développement Web. </p>
             </div>       
         </div>
@@ -36,18 +54,18 @@
      <div class="section dark">
         <div class="boxed text-center">
             <h2>Les languages que je connais</h2>
-            <div class="flex gap20 center">
-                <div class="w25 skill">
+            <div class="flex toColumn gap20 center">
+                <div class="w25 wm100 skill">
                     <img src="img/html-logo.png">
                     <h3>HTML</h3>
 
                 </div>
-                                <div class="w25 skill">
+                                <div class="w25 wm100 skill">
                     <img src="img/css-logo.png">
                     <h3>CSS</h3>
 
                 </div>
-                                <div class="w25 skill">
+                                <div class="w25 wm100 skill">
                     <img src="img/javascript-logo.png">
                     <h3>JavaScript</h3>
 
@@ -61,7 +79,7 @@
         <div class="boxed text-center">
                 <h2>Ma réalisation</h2>
                 <div class="flex" style="justify-content: center;">
-                    <div class="w32 realisation">
+                    <div class="w32 wm48 realisation">
                  <a href="https://julesfall-games.github.io/RubixSaga/" target="_blank">
                     <img src="img/rubixsaga.png" alt="RubixSaga">
                     <h3>Site RubixSaga style Facebook</h3>
@@ -93,13 +111,13 @@ C'est pourquoi je recherche aujourd'hui une entreprise qui pourra m'accompagner 
            <div class="section dark">
                 <div class="boxed text-center">
                     <h2>Me contacté</h2>
-                    <div class="flex space-between">
-                        <div class="w32 contact">
+                    <div class="flex toColumn space-between mgap20">
+                        <div class="w32 wm100 contact">
                         <span class="icon">📧</span>
                         <span class="label">E-mail</span>
                         <span class="adresse">julesmangeat561@gmail.com</span>
                     </div>
-                    <div class="w32 contact">
+                    <div class="w32 wm100 contact">
                         <span class="icon">📞</span>
                         <span class="label">Numeros Tel</span>
                         <span class="value">06 31 36 51 85</span>

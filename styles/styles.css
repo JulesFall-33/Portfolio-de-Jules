@@ -17,7 +17,7 @@ body{
           /* changement de l'image de fond "*/
 .slider{
     width: 100%;
-    min-height: 80vh;
+    height: 80vh;
     aspect-ratio: 16/9;
     background: black;
     position: relative;
@@ -229,3 +229,136 @@ p{
 .realisation-section h2{
     font-size: 3rem;
 }
+
+.aligncenter{
+    align-items: center;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: #faf9f9;
+    padding-block: 10px;
+    box-shadow: 1px 1px 25px rgba(0,0,0,.7);
+}
+
+.header-logo{
+    display: block;
+}
+
+.header-logo img{
+    width: 60px;
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.header-menu li a{
+    text-decoration: none;
+    color: #000;
+    padding: 10px 10px;
+    display: block;
+    box-sizing: border-box;
+    transition: .2s ease;
+}
+
+.header-menu li a:hover{
+    background-color: #f2f2f2;
+}
+
+.header-menu li:last-child a{
+   background-color: #ffa500;
+   color: #fff;
+}
+
+        /* Partie Mobile */
+
+@media(max-width: 810px){
+    header{
+        display:none;
+    }
+
+    h2{
+        font-size: 1.75rem;
+        margin-bottom: 30px;  
+    }
+
+    .slider{
+        height: 50vh;
+    }
+
+    .slider-content{
+        width: 90%;
+    }
+
+    .slider-content p{
+        margin-top: 20px;
+        font-size: 1.5rem;
+        text-wrap:balance;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 1rem;
+        text-wrap:balance;
+    }
+
+    .toColumn{
+        flex-direction: column;
+    }
+
+    .mCenter{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .wm100{
+        width: 100% !important;
+    }
+
+    .section{
+        padding: 50px 0;
+    }
+
+    .boxed{
+        max-width: 90%;
+
+    }
+
+    .wm48{
+        width: 48% 
+    }
+
+    .mgap20{
+        gap: 10px;
+    }
+
+   .contact{
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    }
+    
+    .label{
+    font-size: 1.3rem;
+    }   
+
+    .adresse,
+    .value{
+    font-size: 1rem;
+    }
+    .icon{
+    font-size: 1.5rem !important;
+    }
+    
+}
+
