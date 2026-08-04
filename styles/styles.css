@@ -250,7 +250,7 @@ header{
 }
 
 .header-logo img{
-    width: 60px;
+    width: 40px;
 }
 
 .header-menu{
@@ -277,11 +277,59 @@ header{
    color: #fff;
 }
 
+.header-menu-mobile{
+    display: none;
+
+}
+
         /* Partie Mobile */
 
 @media(max-width: 810px){
     header{
-        display:none;
+        height: 50px;
+    }
+
+    .header-menu-mobile
+    {
+        display: block;
+        border: 0px;
+        background-color: #fff;
+        position: absolute;
+        left: 5%;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 991;
+    }
+
+    .header-logo{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 991;
+    }
+        
+
+    .header-menu{
+        position:fixed;
+        top: 00px;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: #fff;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        display: none;
+    }
+
+    .active{
+        display: flex;
+    }
+
+    .header-menu li:last-child a{
+        margin-top: 10px;       
     }
 
     h2{
