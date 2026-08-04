@@ -2,10 +2,10 @@ const openMenu = () => {
     const menu = document.querySelector('.header-menu');
     menu.classList.toggle('active');
     if (menu.classList.contains('active')){
-        document.querySelector("header .icon").innerHTML = "🗙"
+        document.querySelector("header .menu-icon").innerHTML = "🗙"
     }
     else {
-        document.querySelector("header .icon").innerHTML = "⫶☰"
+        document.querySelector("header .menu-icon").innerHTML = "⫶☰"
     }
 }
 
@@ -16,6 +16,6 @@ liens.forEach(lien => {
         const menu = document.querySelector(".header-menu");
 
         menu.classList.remove("active");
-        document.querySelector("header .icon").innerHTML = "⫶☰";
+        document.querySelector("header .menu-icon").innerHTML = "⫶☰";
     });
 });
