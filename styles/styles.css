@@ -46,10 +46,15 @@ h1{
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 50px;
 }
 h4{
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+h6{
     font-size: 3rem;
     margin-bottom: 50px;
 }
@@ -105,7 +110,7 @@ p{
 .center{
     justify-content: center;
 }
-        /* le w25 c'est le logo html en gros la"*/
+        /* le w25 c'est le logo html "*/
 .w25{
     width: 25%;
 }
@@ -413,7 +418,21 @@ header{
         font-size: 2rem;
         display: block;
     }
-    
+
+    h2{
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    }
+
+    h4{
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    }
+
 }
 
+h6{
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
 
